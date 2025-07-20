@@ -54,15 +54,3 @@ All pods are up and running.
 **Kubernetes - Service & Deployment Status**  
 Shows NodePort service and replicas for the 2048 app.
 [Service and Deployment Info](screenshots/SS6.png)
-
-
-## Project Structure
-
-EKS-K8S-Ingress-Project/
-├── manifests/
-│ ├── deployment.yaml
-│ ├── service.yaml
-│ ├── ingress.yaml
-├── alb-controller-setup.md
-├── screenshots/
-├── README.md
