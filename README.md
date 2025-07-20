@@ -26,24 +26,34 @@ The deployment includes configuring Kubernetes manifests, setting up an ingress 
 
 ## Screenshots
 
-### 1. Deployment Verification
-[SS1](screenshots/SS1.png)
+### SS1.png  
+**2048 Game - Browser Launch**  
+Game is successfully loaded via the ALB DNS.
+[2048 Game Home](screenshots/SS1.png)
+[2048 Game Footer](screenshots/SS2.png)
 
-### 2. ALB Created in AWS Console
-[SS2](screenshots/SS2.png)
+### SS3.png  
+**AWS Console - ALB State**  
+Shows ALB in "Active" state with correct VPC.
+[ALB Active in AWS](screenshots/SS3.png)
 
-### 3. Service Created
-[SS3](screenshots/SS3.png)
 
-### 4. Ingress Deployed
-[SS4](screenshots/SS4.png)
+### SS4.png  
+**Kubernetes - ALB Controller Running**  
+ALB Controller is deployed and ready.
+[ALB Controller Deployment](screenshots/SS4.png)
 
-### 5. Load Balancer URL Opened in Browser
-[SS5](screenshots/SS5.png)
 
-### 6. Game Working in Browser
-[SS6](screenshots/SS6.png)
+### SS5.png  
+**Kubernetes - 2048 Pods Running**  
+All pods are up and running.
+[Pods Running](screenshots/SS5.png)
 
+
+### SS6.png  
+**Kubernetes - Service & Deployment Status**  
+Shows NodePort service and replicas for the 2048 app.
+[Service and Deployment Info](screenshots/SS6.png)
 
 
 ## Project Structure
